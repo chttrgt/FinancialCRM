@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace FinancialCRM
 {
-    public partial class Form1 : Form
+    public partial class FrmBanks : Form
     {
-        public Form1()
+        public FrmBanks()
         {
             InitializeComponent();
+        }
+
+        private void FrmBanks_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
