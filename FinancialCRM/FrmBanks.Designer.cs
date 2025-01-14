@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btnPanel = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.btnBills = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnBanks = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -71,31 +71,32 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LightSlateGray;
-            this.panel1.Controls.Add(this.button8);
+            this.panel1.Controls.Add(this.btnPanel);
             this.panel1.Controls.Add(this.button7);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.btnBills);
             this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.btnBanks);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(0, 50);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(240, 605);
             this.panel1.TabIndex = 0;
             // 
-            // button8
+            // btnPanel
             // 
-            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(29, 33);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(179, 39);
-            this.button8.TabIndex = 0;
-            this.button8.Text = "Panel";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnPanel.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnPanel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPanel.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnPanel.ForeColor = System.Drawing.Color.White;
+            this.btnPanel.Location = new System.Drawing.Point(29, 33);
+            this.btnPanel.Name = "btnPanel";
+            this.btnPanel.Size = new System.Drawing.Size(179, 39);
+            this.btnPanel.TabIndex = 0;
+            this.btnPanel.Text = "Panel";
+            this.btnPanel.UseVisualStyleBackColor = true;
+            this.btnPanel.Click += new System.EventHandler(this.btnPanel_Click);
             // 
             // button7
             // 
@@ -103,7 +104,7 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(29, 412);
+            this.button7.Location = new System.Drawing.Point(29, 540);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(179, 39);
             this.button7.TabIndex = 0;
@@ -116,7 +117,7 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(29, 367);
+            this.button6.Location = new System.Drawing.Point(29, 495);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(179, 39);
             this.button6.TabIndex = 0;
@@ -163,18 +164,18 @@
             this.button3.Text = "Faturalar";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnBanks
             // 
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(29, 123);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(179, 39);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Bankalar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnBanks.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnBanks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBanks.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnBanks.ForeColor = System.Drawing.Color.White;
+            this.btnBanks.Location = new System.Drawing.Point(29, 123);
+            this.btnBanks.Name = "btnBanks";
+            this.btnBanks.Size = new System.Drawing.Size(179, 39);
+            this.btnBanks.TabIndex = 0;
+            this.btnBanks.Text = "Bankalar";
+            this.btnBanks.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -484,13 +485,13 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button btnPanel;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button btnBills;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnBanks;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;

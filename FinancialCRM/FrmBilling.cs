@@ -117,5 +117,12 @@ namespace FinancialCRM
             frmBanks.Show();
             this.Hide();
         }
+
+        private void btnPanel_Click(object sender, EventArgs e)
+        {
+            FrmDashBoard frmDashBoard = new FrmDashBoard();
+            frmDashBoard.Show();
+            this.Hide();
+        }
     }
 }
