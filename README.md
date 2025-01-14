@@ -74,15 +74,14 @@ Bu rehber, projenin çalıştırılmasını ve geliştirilmesini kolaylaştırma
 
 ## 📸 Ekran Görüntüleri
 
-### Ana Sayfa
-![Ana Sayfa](https://via.placeholder.com/800x400.png?text=Ana+Sayfa+Ekran+G%C3%B6r%C3%BCnt%C3%BCs%C3%BC)
+### DashBoard
+![Proje Görseli](FinancialCRM/Images/dashboard.png)
 
-### Müşteri Yönetimi
-![Müşteri Yönetimi](https://via.placeholder.com/800x400.png?text=M%C3%BC%C5%9Fteri+Y%C3%B6netimi+Ekran+G%C3%B6r%C3%BCnt%C3%BCs%C3%BC)
+### Banks Form
+![Proje Görseli](FinancialCRM/Images/banks.png)
 
-### Raporlama
-![Raporlama](https://via.placeholder.com/800x400.png?text=Raporlama+Ekran+G%C3%B6r%C3%BCnt%C3%BCs%C3%BC)
-
+### Bills Form
+![Proje Görseli](FinancialCRM/Images/bills.png)
 ---
 
 ## 🛠 Kullanılan Teknolojiler
