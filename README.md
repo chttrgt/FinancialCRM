@@ -3,6 +3,7 @@
 Bu proje, C# ve Entity Framework kullanarak "Database First" yaklaşımı ile geliştirilmiş bir Finansal CRM uygulamasıdır. Uygulama, müşterilerin finansal bilgilerini yönetmek, işlem geçmişlerini takip etmek ve analizler sağlamak için tasarlanmıştır.
 
 **Not: Bu proje, eğitim amaçlı geliştirilmiştir ve üretim ortamında kullanılmak üzere optimize edilmemiştir.**
+### Eğitmen: Murat Yücedağ
 
 ---
 
