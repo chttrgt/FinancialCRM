@@ -74,6 +74,14 @@ Bu rehber, projenin çalıştırılmasını ve geliştirilmesini kolaylaştırma
 
 ## 📸 Ekran Görüntüleri
 
+### Login Form
+![Proje Görseli](FinancialCRM/Images/LoginForm1.png)
+![Proje Görseli](FinancialCRM/Images/LoginForm2.png)
+![Proje Görseli](FinancialCRM/Images/LoginForm3.png)
+![Proje Görseli](FinancialCRM/Images/LoginForm4.png)
+![Proje Görseli](FinancialCRM/Images/LoginForm5.png)
+![Proje Görseli](FinancialCRM/Images/LoginForm6.png)
+
 ### DashBoard
 ![Proje Görseli](FinancialCRM/Images/dashboard.png)
 
