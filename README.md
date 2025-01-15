@@ -94,8 +94,7 @@ Bu rehber, projenin çalıştırılmasını ve geliştirilmesini kolaylaştırma
 
 ## 🛠 Kullanılan Teknolojiler
 
-- **Backend:** ASP.NET Core, Entity Framework Core
-- **Frontend:** Razor Pages veya MVC (isteğe bağlı Angular/React)
+- **Backend:** Windows Forms App (.NET Framework), Entity Framework (DB First)
 - **Veritabanı:** Microsoft SQL Server
 
 ---
